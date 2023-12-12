@@ -1,0 +1,4 @@
+openai==0.28
+slack-bolt==1.18.0
+slack-sdk==3.26.1
+slackclient==2.9.4
