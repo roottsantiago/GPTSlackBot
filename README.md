@@ -39,3 +39,6 @@ docker-compose up -d
 ```
 2. Invite the bot to your desired Slack channel.
 3. Mention the bot in a message and ask a question.
+
+## License
+This project is released under the terms of the GNU GPL 3.0 license. For more information, see the [LICENSE](LICENSE) file included in the repository.
