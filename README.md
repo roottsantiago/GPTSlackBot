@@ -9,6 +9,12 @@ Installation
   git clone https://github.com/thomgonzalez/GPTSlackBot.git
   ```
 2. Install the required packages.
-  
-5. Create a .env file in the root directory of the project and add your Slack and OpenAI API keys.
-   
+  ```
+   pip install -r requirements.txt
+  ```
+3. Edit the .app.env file in the root directory of the project and add your Slack and OpenAI API keys.
+  ```
+  export SLACK_BOT_TOKEN=slack_bot_token
+  export SLACK_APP_TOKEN=slack_app_token
+  export OPENAI_API_KEY=you_openai_api_key
+  ```
