@@ -26,4 +26,16 @@ Alternatively, you can use the containerized version by setting the environment 
   ```
   docker-compose up -d
   ```
+
+Usage
+=====
 Once the bot is running, you can mention it in a Slack channel to send it a message. For example
+1. Start the bot:
+```python
+# run with virtual environment
+python app.py
+# run with docker
+docker-compose up -d
+```
+2. Invite the bot to your desired Slack channel.
+3. Mention the bot in a message and ask a question.
