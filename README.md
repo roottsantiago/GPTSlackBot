@@ -13,13 +13,13 @@ The next step is to install the necessary dependencies such as slack-bolt, slack
   ```
    pip install -r requirements.txt
   ```
-3. Edit the .app.env file in the root directory of the project and add your Slack and OpenAI API keys.
+3. Edit the .api.env file in the root directory of the project and add your Slack and OpenAI API keys.
   ```
   export SLACK_BOT_TOKEN=slack_bot_token
   export SLACK_APP_TOKEN=slack_app_token
   export OPENAI_API_KEY=you_openai_api_key
   ```
-Alternatively, you can use the containerized version by setting the environment variables in the variables.env file and then run:
+Alternatively, you can use the containerized version by setting the environment variables in the .api.env file and then run:
   ```
   docker-compose up -d
   ```
