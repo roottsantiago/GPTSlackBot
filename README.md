@@ -7,7 +7,7 @@ The next step is to install the necessary dependencies such as slack-bolt, slack
 
 1. Clone this repository.
   ```
-  git clone https://github.com/thomgonzalez/GPTSlackBot.git
+  git clone https://github.com/roottsantiago/GPTSlackBot.git
   ```
 2. Install the required packages.
   ```
